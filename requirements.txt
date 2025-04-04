@@ -1,2 +1,4 @@
 streamlit
 google-generativeai
+google-cloud-storage
+google-auth # Often installed as a dependency, but good to be explicit

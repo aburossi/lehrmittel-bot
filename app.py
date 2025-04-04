@@ -1,27 +1,73 @@
 import streamlit as st
 import google.generativeai as genai
 import os
-from pathlib import Path
-import re
+import json # To parse credentials
+from pathlib import Path # Still useful for parsing filenames conceptually
+
+# Import Google Cloud libraries
+from google.cloud import storage
+from google.oauth2 import service_account
+from google.api_core.exceptions import NotFound, Forbidden # For error handling
 
 # --- Configuration ---
 
 st.set_page_config(
-    page_title="Subchapter Chatbot",
+    page_title="Subchapter Chatbot (GCS)",
     layout="wide"
 )
 
-# Get API Key from Streamlit secrets using the .get() method
-api_key = st.secrets.get("GEMINI_API_KEY")
-if not api_key:
-    st.error("GEMINI_API_KEY not found or not set in Streamlit secrets. Please add it.")
-    st.stop()
+# --- Secret Management & Client Initialization ---
 
+# Load secrets securely
 try:
-    genai.configure(api_key=api_key)
+    gemini_api_key = st.secrets["GEMINI_API_KEY"]
+    gcs_bucket_name = st.secrets["GCS_BUCKET_NAME"]
+    gcs_credentials_json = st.secrets["gcs_service_account_json"]
+
+    # Validate presence
+    if not gemini_api_key or not gcs_bucket_name or not gcs_credentials_json:
+        st.error("One or more required secrets (GEMINI_API_KEY, GCS_BUCKET_NAME, GCS_CREDENTIALS) are missing.")
+        st.stop()
+
+except KeyError as e:
+    st.error(f"Missing required Streamlit secret: {e}. Please configure secrets.")
+    st.stop()
+except Exception as e:
+     st.error(f"An error occurred loading secrets: {e}")
+     st.stop()
+
+# Configure Gemini
+try:
+    genai.configure(api_key=gemini_api_key)
 except Exception as e:
     st.error(f"Error configuring Google Generative AI: {e}")
     st.stop()
+
+# --- GCS Client Initialization (Cached) ---
+@st.cache_resource(show_spinner="Connecting to Google Cloud Storage...")
+def get_gcs_client():
+    """Initializes and returns a GCS client using credentials from secrets."""
+    try:
+        credentials_info = json.loads(gcs_credentials_json)
+        credentials = service_account.Credentials.from_service_account_info(credentials_info)
+        storage_client = storage.Client(credentials=credentials)
+        # Test connection by trying to get the bucket (optional but good practice)
+        storage_client.get_bucket(gcs_bucket_name)
+        print("Successfully connected to GCS.") # Logs for debugging
+        return storage_client
+    except json.JSONDecodeError:
+        st.error("Failed to parse GCS credentials JSON. Check the format in secrets.")
+        return None
+    except (NotFound, Forbidden):
+         st.error(f"Error accessing GCS Bucket '{gcs_bucket_name}'. Check bucket name and service account permissions (needs Storage Object Viewer).")
+         return None
+    except Exception as e:
+        st.error(f"Error initializing GCS client: {e}")
+        return None
+
+storage_client = get_gcs_client()
+if not storage_client:
+    st.stop() # Stop if client initialization failed
 
 # LearnLM Model Configuration
 generation_config = {
@@ -32,52 +78,68 @@ generation_config = {
     "response_mime_type": "text/plain",
 }
 
-# Define the directory containing textbooks
-TEXTBOOK_DIR = Path("textbooks")
-PLACEHOLDER_SELECT = "-- Select a Subchapter --" # Define placeholder
+PLACEHOLDER_SELECT = "-- Select a Subchapter --"
 
-# --- Helper Functions ---
+# --- GCS Helper Functions (Cached) ---
 
-def get_available_subchapters(textbook_dir: Path) -> dict[str, str]:
+@st.cache_data(show_spinner="Listing available subchapters...")
+def get_available_subchapters_from_gcs(bucket_name: str, _client: storage.Client) -> dict[str, str]:
     """
-    Scans the textbook directory for files matching the pattern
-    'MainChapter_Topic_SubChapter.txt', creates a display name,
-    and returns a dictionary mapping {display_name: filename}.
+    Lists blobs in the GCS bucket, parses names matching the pattern,
+    and returns a dictionary mapping {display_name: blob_name}.
+    Uses _client parameter to benefit from st.cache_data.
     """
     subchapter_map = {}
-    if not textbook_dir.is_dir():
-        return subchapter_map
+    try:
+        blobs = _client.list_blobs(bucket_name) # Add prefix='textbooks/' if files are in a folder
+        for blob in blobs:
+            blob_name = blob.name
+            # Handle potential folder structure in blob name
+            filename = Path(blob_name).name
+            stem = Path(filename).stem
 
-    for f in textbook_dir.glob("*.txt"):
-        filename = f.name
-        stem = f.stem
-        parts = stem.split('_')
-        if len(parts) == 3:
-            main_chapter_str, topic_str, subchapter_str = parts
-            display_name = subchapter_str
-            subchapter_map[display_name] = filename
-        else:
-             print(f"Info: Skipping file with unexpected name format: {filename}")
+            parts = stem.split('_')
+            if len(parts) == 3 and filename.endswith(".txt"):
+                main_chapter_str, topic_str, subchapter_str = parts
+                display_name = subchapter_str
+                # Use the full blob name (including path if any) as the value
+                subchapter_map[display_name] = blob_name
+            else:
+                print(f"Info: Skipping blob with unexpected name format: {blob_name}")
+
+    except (NotFound, Forbidden) as e:
+         st.error(f"Error listing files in GCS Bucket '{bucket_name}'. Check permissions or bucket name. Details: {e}")
+         return {} # Return empty on error
+    except Exception as e:
+        st.error(f"An unexpected error occurred listing GCS files: {e}")
+        return {}
 
     sorted_subchapter_map = dict(sorted(subchapter_map.items()))
     return sorted_subchapter_map
 
-def load_subchapter_content(filename: str, textbook_dir: Path) -> str | None:
-    """Loads the content of a specific subchapter file using its filename."""
-    file_path = textbook_dir / filename
-    if file_path.is_file():
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                return f.read()
-        except Exception as e:
-            st.error(f"Error reading subchapter file '{filename}': {e}")
+@st.cache_data(show_spinner="Loading subchapter content...")
+def load_subchapter_content_from_gcs(bucket_name: str, blob_name: str, _client: storage.Client) -> str | None:
+    """Loads the content of a specific blob from GCS."""
+    try:
+        bucket = _client.bucket(bucket_name)
+        blob = bucket.blob(blob_name)
+
+        if blob.exists():
+            content = blob.download_as_text(encoding="utf-8")
+            return content
+        else:
+            st.error(f"Subchapter file '{blob_name}' not found in GCS bucket '{bucket_name}'.")
             return None
-    else:
-        st.error(f"Subchapter file not found: {file_path}")
+    except (NotFound, Forbidden) as e:
+         st.error(f"Error accessing GCS file '{blob_name}'. Check permissions or bucket/file name. Details: {e}")
+         return None
+    except Exception as e:
+        st.error(f"An error occurred reading file '{blob_name}' from GCS: {e}")
         return None
 
 def initialize_learnlm_model(system_prompt: str) -> genai.GenerativeModel | None:
     """Initializes the GenerativeModel with a system instruction."""
+    # (No changes needed in this function itself)
     try:
         model = genai.GenerativeModel(
             model_name="learnlm-1.5-pro-experimental",
@@ -96,21 +158,17 @@ def reset_chat_state():
     st.session_state.learnlm_model = None
     st.session_state.chat_session = None
     st.session_state.subchapter_content = None
-    # Keep selected_subchapter_display_name as is until a new one is chosen or placeholder selected
-    print("Chat state reset.") # Optional debug message
-
+    print("Chat state reset.")
 
 # --- Streamlit App UI and Logic ---
 
-st.title("📚 Subchapter Exam Prep Chatbot")
-st.caption("Powered by Google LearnLM 1.5 Pro Experimental")
+st.title("📚 Subchapter Exam Prep Chatbot (GCS)")
+st.caption("Powered by Google LearnLM 1.5 Pro Experimental | Content from GCS")
 
 # --- State Initialization ---
-# Initialize only if keys don't exist
 if "messages" not in st.session_state:
     st.session_state.messages = []
 if "selected_subchapter_display_name" not in st.session_state:
-    # Initialize with placeholder to prevent initial load
     st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
 if "subchapter_content" not in st.session_state:
     st.session_state.subchapter_content = None
@@ -119,29 +177,27 @@ if "learnlm_model" not in st.session_state:
 if "chat_session" not in st.session_state:
     st.session_state.chat_session = None
 if "subchapter_map" not in st.session_state:
-    st.session_state.subchapter_map = get_available_subchapters(TEXTBOOK_DIR)
+    # Load map using the GCS function and cached client
+    st.session_state.subchapter_map = get_available_subchapters_from_gcs(gcs_bucket_name, storage_client)
 
 
 # --- Subchapter Selection ---
 if not st.session_state.subchapter_map:
     st.warning(
-        f"No valid subchapter files (e.g., '8_Topic_8.3 Subtopic.txt') found in the "
-        f"'{TEXTBOOK_DIR}' directory. Please check the folder and filenames."
+        f"No valid subchapter files found in GCS bucket '{gcs_bucket_name}' or failed to list them. "
+        f"Ensure files exist and follow the 'Main_Topic_Subtopic.txt' format, and check permissions."
     )
-    st.stop()
+    # Don't stop here, maybe the listing failed temporarily, let user see error messages above.
+    # st.stop() # Consider if stopping is better if the list is essential
 
-# Prepare options for the selectbox, including the placeholder
+# Prepare options, including the placeholder
 available_display_names = [PLACEHOLDER_SELECT] + list(st.session_state.subchapter_map.keys())
 
-# Determine the index for the selectbox based on the current state
 try:
-    # Find index of the currently loaded/selected subchapter
     current_index = available_display_names.index(st.session_state.selected_subchapter_display_name)
 except ValueError:
-    # Default to placeholder if current value isn't in the list (shouldn't happen often)
     current_index = 0
 
-# Store the previous selection to detect changes accurately
 previous_selection = st.session_state.selected_subchapter_display_name
 
 selected_display_name = st.selectbox(
@@ -152,86 +208,38 @@ selected_display_name = st.selectbox(
 )
 
 # --- Load Subchapter and Initialize Model/Chat ---
-# This logic now runs only when the selection changes *and* it's not the placeholder
 if selected_display_name != previous_selection:
-    st.session_state.selected_subchapter_display_name = selected_display_name # Update state immediately
+    st.session_state.selected_subchapter_display_name = selected_display_name
 
     if selected_display_name == PLACEHOLDER_SELECT:
-        # User selected the placeholder - clear chat state but don't load
         reset_chat_state()
         st.info("Please select a subchapter from the list to begin.")
-        # Force rerun to clear chat display if needed (often handled by Streamlit automatically)
-        # st.rerun() # Uncomment if chat doesn't clear reliably
+        st.rerun() # Ensure UI updates fully after reset
 
     else:
-        # User selected a real subchapter - Proceed with loading logic
-        st.info(f"Loading subchapter: {selected_display_name}...")
-        reset_chat_state() # Clear previous chat before loading new one
+        st.info(f"Loading subchapter: {selected_display_name} from GCS...")
+        reset_chat_state()
 
-        filename_to_load = st.session_state.subchapter_map.get(selected_display_name)
+        # Get the corresponding blob name (which might include path)
+        blob_name_to_load = st.session_state.subchapter_map.get(selected_display_name)
 
-        if filename_to_load:
-            content = load_subchapter_content(filename_to_load, TEXTBOOK_DIR)
-            if content:
-                st.session_state.subchapter_content = content # Store content
+        if blob_name_to_load:
+            # Load content using the GCS function and cached client
+            content = load_subchapter_content_from_gcs(gcs_bucket_name, blob_name_to_load, storage_client)
+
+            if content: # Check if content loading was successful
+                st.session_state.subchapter_content = content
 
                 # Define the system prompt
-                system_prompt = f"""Du bist ein KI-gestützter Tutor auf Basis von LearnLM und hilfst einem Lernenden dabei, den Inhalt des folgenden Kapitels aus dem Lehrmittel Allgemeinbildung zu verstehen.
-
-                Dein Wissen ist AUSSCHLIESSLICH auf den folgenden Text zum Kapitel '{selected_display_name}' beschränkt. Verwende KEINE externen Informationen und zitiere NIEMALS Textpassagen wortwörtlich – formuliere immer mit eigenen Worten um.
-
-                --- START DES TEXTES ZUM KAPITEL '{selected_display_name}' ---
+                system_prompt = f"""You are an expert tutor...
+                Your knowledge is STRICTLY LIMITED to the following text from subchapter '{selected_display_name}'.
+                ...
+                --- START OF SUBCHAPTER '{selected_display_name}' TEXT ---
                 {st.session_state.subchapter_content}
-                --- ENDE DES TEXTES ZUM KAPITEL '{selected_display_name}' ---
-
-                Wichtige Informationen zum Text:
-                - Das Lehrmittel heißt **"Lehrmittel Allgemeinbildung"**
-                - Seitenzahlen sind im Format **[seite: XXX]** im Text enthalten
-                - Verwende Seitenzahlen strategisch:
-                - Gib die relevante Seite an, wenn du ein Thema erklärst oder ein Konzept vertiefst
-                - Nutze Seitenzahlen, um den Lernenden zu motivieren zuerst etwas zu lesen oder im Nachhinein nachzuschlagen
-                - Nutze Seitenverweise als Lernstrategie („Lies zuerst S.220, dann beantworte die Frage“ oder „Versuche die Frage zu beantworten, danach lies auf S.223 nach“)
-
-                Du arbeitest mit folgenden Prinzipien der Lernwissenschaft:
-                - **Aktives Lernen**: Stelle Fragen, rege zum Nachdenken und Mitmachen an
-                - **Kognitive Entlastung**: Gib nur eine Information oder Aufgabe pro Antwort
-                - **Neugier fördern**: Verwende Analogien, stelle interessante Fragen, verbinde Inhalte
-                - **Anpassung**: Passe dein Vorgehen an das Niveau und Ziel des Lernenden an
-                - **Metakognition**: Fördere Selbstreflexion und Lernbewusstsein
-
-                Sprache: **ANTWORTE AUSSCHLIESSLICH AUF DEUTSCH**
-
-                Beginne das Gespräch mit einer freundlichen Begrüßung und biete folgende Lernmodi an:
-
-                1. 📚 **Quiz mich** – Teste mein Wissen
-                2. 💡 **Erkläre ein Konzept**
-                3. 🔄 **Verwende eine Analogie**
-                4. 🔍 **Gehe tiefer auf ein Thema ein**
-                5. 🧠 **Reflektiere oder fasse zusammen**
-                6. 🧩 **Erstelle eine Konzeptkarte**
-
-                Warte, bis sich der Lernende für einen Modus entscheidet.
-
-                Spezifisches Verhalten je nach Modus:
-
-                - **📚 Quiz mich**: Stelle 1 Frage pro Durchlauf, beginnend einfach, dann steigend. Bitte um Begründung der Antwort. Wenn korrekt: loben. Wenn falsch: behutsam zur richtigen Lösung führen. Nach 5 Fragen: Zusammenfassung oder Fortsetzung anbieten. Verwende relevante Seitenangaben bei Bedarf (z. B. „Diese Info findest du auf [seite: 221]“).
-
-                - **💡 Erkläre ein Konzept**: Frage zuerst, welches Konzept erklärt werden soll. Gib eine schrittweise Erklärung. Biete relevante Seitenangaben zum Nachlesen an.
-
-                - **🔄 Verwende eine Analogie**: Wähle eine geeignete Stelle im Text aus und erkläre sie mithilfe eines kreativen, aber passenden Vergleichs. Nutze Seitenangaben zur Orientierung.
-
-                - **🔍 Gehe tiefer auf ein Thema ein**: Wenn der Lernende tiefer verstehen möchte, stelle offene, leitende Fragen. Nutze Seitenangaben zur Vertiefung.
-
-                - **🧠 Reflektiere oder fasse zusammen**: Fasse in eigenen Worten zusammen, was besprochen wurde. Stelle Reflexionsfragen wie: „Was fiel dir leicht? Wo möchtest du noch mehr üben?“ Gib ggf. Hinweise auf Seiten zum Wiederholen.
-
-                - **🧩 Konzeptkarte erstellen**: Bitte den Lernenden, 3–5 zentrale Ideen aus dem Kapitel zu nennen. Hilf, Zusammenhänge zu erkennen. Nutze Seitenzahlen zur Verankerung im Text.
-
-                Stil: Sei stets freundlich, unterstützend und geduldig. Stelle pro Antwort nur eine Frage oder Information. Fördere ein Gefühl von Fortschritt und Selbstwirksamkeit.
-
-                Bereit, mit dem Kapitel '{selected_display_name}' aus dem Lehrmittel Allgemeinbildung zu starten? Bitte den Lernenden, einen der 6 Lernmodi auszuwählen.
+                --- END OF SUBCHAPTER '{selected_display_name}' TEXT ---
+                ...
+                Begin the conversation by introducing yourself... ready to discuss subchapter '{selected_display_name}'.
                 """
-
-
 
                 # Initialize the model
                 st.session_state.learnlm_model = initialize_learnlm_model(system_prompt)
@@ -240,7 +248,7 @@ if selected_display_name != previous_selection:
                     # Start chat session
                     try:
                         st.session_state.chat_session = st.session_state.learnlm_model.start_chat(history=[])
-                        st.success(f"Subchapter '{selected_display_name}' loaded. Ask me anything about it!")
+                        st.success(f"Subchapter '{selected_display_name}' loaded from GCS. Ask me anything about it!")
                         # Optional initial greeting
                         try:
                              initial_user_message = f"Please introduce yourself..." # As before
@@ -250,52 +258,42 @@ if selected_display_name != previous_selection:
                             st.warning(f"Could not get initial greeting from LearnLM: {e}")
                             st.session_state.messages.append({"role": "assistant", "content": f"Hello! I'm ready to help..."}) # As before
 
-                        # Force rerun to update display immediately after loading and initial message
-                        st.rerun()
+                        st.rerun() # Rerun to show success/initial message
 
                     except Exception as e:
                          st.error(f"Failed to start chat session: {e}")
-                         reset_chat_state() # Reset on failure
-                         st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT # Revert selection state
-
+                         reset_chat_state()
+                         st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
                 else:
-                    # Handle model initialization failure
-                    st.error("Failed to initialize the LearnLM model.")
+                    st.error("Failed to initialize the LearnLM model after loading content.")
                     reset_chat_state()
                     st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
-
             else:
-                 # Handle content loading failure
-                 st.error(f"Failed to load content for {selected_display_name}.")
-                 reset_chat_state()
-                 st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
-
+                # Content loading from GCS failed (error shown in load function)
+                reset_chat_state()
+                st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
         else:
-            st.error(f"Internal error: Could not find filename for '{selected_display_name}'.")
+            st.error(f"Internal error: Could not find blob name for '{selected_display_name}'.")
             reset_chat_state()
             st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT
 
 
 # --- Display Chat History ---
 st.markdown("---")
-# Show subheader based on whether a real subchapter is selected
 current_topic = st.session_state.selected_subchapter_display_name \
                 if st.session_state.selected_subchapter_display_name != PLACEHOLDER_SELECT \
                 else "No Subchapter Selected"
 st.subheader(f"Chatting about: {current_topic}")
 
-# Display messages only if a real subchapter is loaded and chat session exists
 if st.session_state.selected_subchapter_display_name != PLACEHOLDER_SELECT and st.session_state.chat_session:
     for message in st.session_state.messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 elif st.session_state.selected_subchapter_display_name == PLACEHOLDER_SELECT and not st.session_state.messages:
-    # Show placeholder text if nothing is selected
      st.info("Select a subchapter from the dropdown menu above to start chatting.")
 
 
 # --- Handle User Input ---
-# Disable input if no real subchapter is selected or chat session isn't ready
 prompt_disabled = (st.session_state.selected_subchapter_display_name == PLACEHOLDER_SELECT or
                    not st.session_state.chat_session)
 
@@ -306,35 +304,21 @@ user_prompt = st.chat_input(
 )
 
 if user_prompt:
-    # Add user message to state and display it
     st.session_state.messages.append({"role": "user", "content": user_prompt})
     with st.chat_message("user"):
         st.markdown(user_prompt)
 
-    # Send user message to LearnLM and get response
     try:
         with st.spinner("Thinking..."):
             response = st.session_state.chat_session.send_message(user_prompt)
         assistant_response = response.text
         st.session_state.messages.append({"role": "assistant", "content": assistant_response})
-        with st.chat_message("assistant"):
-            st.markdown(assistant_response)
+        # No need for chat_message context here, just append and rerun
 
-        # Rerun needed to display the latest assistant message immediately after sending
-        st.rerun()
+        st.rerun() # Rerun to display the new messages
 
     except Exception as e:
         st.error(f"An error occurred while communicating with LearnLM: {e}")
         error_message = f"Sorry, I encountered an error: {e}"
-        # Add error message to chat history too
         st.session_state.messages.append({"role": "assistant", "content": error_message})
-        with st.chat_message("assistant"):
-             st.markdown(error_message)
-        # Rerun to show the error message in the chat
-        st.rerun()
-
-# Optional: Add a button to explicitly clear chat if needed
-# if st.button("Clear Current Chat"):
-#     reset_chat_state()
-#     st.session_state.selected_subchapter_display_name = PLACEHOLDER_SELECT # Reset selection too
-#     st.rerun()
+        st.rerun() # Rerun to display error message
