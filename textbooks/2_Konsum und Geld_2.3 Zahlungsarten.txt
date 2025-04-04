@@ -1,0 +1,240 @@
+[seite: 50]
+2.3	 Zahlungsarten
+Barzahlung
+Bereits mit dem Taschengeld als Kind, dem Jugendlohn oder mit dem Lohn im ers-
+ten Lehrjahr beginnt man sein Geld als Zahlungsmittel zu verwenden. Dabei bildet 
+die Barzahlung noch immer die meistgenutzte Zahlungsmöglichkeit, bei der Bargeld 
+gegen Ware getauscht wird. Im Detailhandel lässt sich praktisch überall mit Bargeld 
+zahlen. 
+Bargeldloser Zahlungsverkehr
+Immer häufiger werden die moderneren Zahlungsmethoden verwendet, da diese je 
+nach Einsatzbereich Vorteile gegenüber dem Bargeld bieten.
+Übersicht der Zahlungsarten:
+Erhalt
+der 
+Ware
+Travel-Prepaid-Karte
+Barzahlung
+Kreditkarte
+Rechnung
+Debitkarte
+Online-Zahlung
+Zeit
+Wer ein Konto bei einer Bank oder der Post besitzt, hat unterschiedliche Möglichkei-
+ten, bargeldlose Zahlungen vorzunehmen.
+Bei einer Banküberweisung füllt die Kundin einen Zahlungsauftrag aus und stellt 
+diesen mit den Einzahlungsscheinen der Bank zu. Diese führt die Zahlungen aus und 
+schickt der Kundin eine detaillierte Belastungsanzeige.
+Beim Dauerauftrag wird die Bank beauftragt, einen festen Betrag regelmässig an den 
+gleichen Empfänger zu überweisen. Die Bank führt diese Zahlungen zu den festgesetz-
+ten Zeitpunkten aus (z.B. Miete, Krankenkassenprämien).
+Die Bankkundin kann mit der Bank schriftlich vereinbaren, dass Rechnungen von be-
+stimmten Unternehmen an die Bank geschickt und direkt durch diese bezahlt wer-
+den. Dies nennt man Lastschriftverfahren (LSV).
+Banküberweisung
+Dauerauftrag
+Lastschriftverfahren (LSV)
+
+
+[seite: 51]
+Beim E-Banking hat der Bankkunde via Internet einen gesicherten Zugang zu seinen 
+Konten. Dadurch hat er einen Überblick über seine Finanzen, kann selbstständig Kon-
+toüberträge vornehmen, Zahlungen erfassen, neueste Bankinformationen abfragen 
+und vieles mehr.
+Ein Einzahlungsschein dient dazu, einen Geldbetrag in Schweizer Franken auf ein 
+Konto einzuzahlen bzw. vom eigenen Konto zu überweisen. Einzahlungsscheine wer-
+den von allen Banken und der Schweizer PostFinance angeboten. Die heutigen roten 
+(ohne Referenznummer) und orangen (mit Referenznummer; ESR) Einzahlungsschei-
+ne werden in Bälde ersetzt.
+Bei der QR-Rechnung erhält die Zahlungsempfängerin eine Rechnung zugestellt, auf 
+der sich ein QR-Code befindet. Dieser wird eingescannt und alle Zahlungsinformatio-
+nen sind sogleich auf dem E-Banking-Portal ersichtlich.
+Beim eBill-Verfahren erhalten die Zahlungsempfänger die Rechnungen nicht mehr per 
+Post oder E-Mail, sondern direkt im E-Banking. Die Rechnungen können dort geprüft 
+und bezahlt werden.
+Mit der Entwicklung und Markteinführung der neuen QR-Rechnung sowie eBill digi-
+talisiert der Finanzplatz Schweiz den Schweizer Zahlungsverkehr. Die QR-Rechnung 
+trägt ebenso wie eBill den gestiegenen Anforderungen von Compliance (Einhaltung 
+von Sicherheitsbestimmungen) und Automatisierungsprozessen Rechnung und un-
+terstützt die Digitalisierung. Dies bringt allen Marktteilnehmenden und der gesamten 
+Schweizer Volkswirtschaft Vorteile.
+E-Banking
+Einzahlungsschein
+QR-Rechnung
+eBill
+
+
+[seite: 52]
+Karten
+Die Debitkarten ermöglichen Bargeldbezüge rund um die Uhr sowie bargeld­
+loses Be-
+zahlen an sogenannten Zahlterminals in Geschäften im In- und Ausland. Die Bezüge 
+werden laufend dem entsprechenden Konto belastet.
+Beispiele: Debit Mastercard, Postcard
+Vor- und Nachteile von Debitkarten
+Vorteile:
+•	 Weniger Bargeld notwendig
+•	 Bargeldbezüge rund um die Uhr möglich
+Nachteile:
+•	 Gefahr, mehr Geld auszugeben, als man hat
+•	 Gefahr des Missbrauchs bei Verlust (falls Code bekannt)
+•	 Weniger Privatsphäre, Sie geben Ihr Konsumverhalten preis
+Gebühren
+Bargeldbezug Inland
+Gebühren abhängig vom Anbieter
+Bargeldbezug ­
+Ausland
+Fr. 5.– pro Bargeldbezug
+Eine Kreditkarte ist ein Ausweis über die Zugehörigkeit zu einer Kreditkartenorganisa-
+tion. Wer in einem Geschäft oder Restaurant eine Kreditkarte vorweist, muss nicht bar 
+bezahlen. Vielmehr gewährt ihm die Kreditkartenorganisation Kredit und fordert das 
+Geld erst Ende Monat mit einer Rechnung ein (via LSV). Es gibt auch Prepaidkreditkar-
+ten, die im Voraus mit einem selbst gewählten Betrag aufgeladen werden können. In 
+diesem Fall kann nur soviel Geld eingesetzt werden, wie auch auf der Karte ist. Kredit-
+karten können gegen eine Jahresgebühr (z.B. 150 Franken) bei Banken, der Post oder 
+anderen Institutionen beantragt werden. Gegen eine Gebühr kann mit ihnen auch 
+Geld am Bankomaten bezogen werden. Zunehmend sind sie auch gratis erhältlich 
+ 
+(z.B. bei Migros, Coop, SBB).
+Beispiele: Mastercard, American Express, Visa, Diners Club
+Vor- und Nachteile von Kreditkarten
+Vorteile:
+•	 Weniger Bargeld notwendig (kleineres Diebstahlrisiko)
+•	 Bei Kautionen (z.B. Fahrzeugmiete) reicht Angabe der Kredit­
+kartennummer
+Nachteile:
+•	 Schlechtere Kontrolle über eigene Ausgaben
+•	 Gefahr des Missbrauchs bei Verlust
+•	 Bei Internetkäufen werden die Gebühren zunehmend dem 
+­
+Käufer belastet
+•	 Weniger Privatsphäre, Sie geben Ihr Konsumverhalten preis
+Gebühren
+Bargeldbezug Inland
+Kostenlos mit Direct-Debit-Funktion, sonst 4 Prozent Bearbeitungs­
+gebühr, mindestens Fr. 10.–
+Bargeldbezug ­
+Ausland
+4 % Bearbeitungsgebühr, mindestens Fr. 10.–
+Bargeldloses Bezahlen 
+im Ausland
+Umrechnung Fremdwährungen: Devisenverkaufskurs zuzüglich maxi-
+mal 1,75 % Bearbeitungsgebühr
+Debitkarten
+Kreditkarten
+
+
+[seite: 53]
+Kontaktloses Zahlen mit der Kreditkarte ist möglich bei kleineren Einkäufen bis 
+ 
+80 Franken. Man bezahlt, ohne die Karte in das Terminal einschieben oder den PIN-
+Code eingeben zu müssen.
+Vor- und Nachteile von paypass oder payWave 
+Vorteile:
+•	 Kontaktloses Bezahlen
+•	 Beträge unter Fr. 80.– ohne PIN-Eingabe
+Nachteile:
+•	 Bei Verlust der Karte kann der Finder oder die Finderin ohne 
+Kenntnis des PIN-Codes einkaufen
+Immer mehr Firmen werben mit Rabatten und Aktionen für ihre Kundenkarten. Die 
+Geschäfte profitieren gleich dreifach davon: Erstens sollen die Kunden dem Unterneh-
+men treu bleiben, zweitens gewinnen sie Kundendaten und drittens ersparen sich die 
+Firmen einen Teil der Kommissionen, die bei den klassischen Kreditkarten anfallen. 
+Nur ganz wenige Kundenkarten lohnen sich.
+Vor- und Nachteile von Kundenkarten
+Vorteile:
+•	 Rabatte und spezielle Aktionen
+•	 Rechnungen teilweise erst am Monatsende
+Nachteile:
+•	 Gewährte Preisnachlässe sind bescheiden im Vergleich zur 
+Datenmenge, die die Kunden preisgeben
+•	 Verzugszinsen sehr hoch (bei Kreditkarten max. 12%)
+Die Travel-Prepaid-Karte ist ein bargeldloses Zahlungsmittel. Dies ist eine aufladba-
+re Prepaidkarte (in CHF, EUR, USD), mit der weltweit z.B. in Hotels und Geschäften 
+bezahlt werden kann und ein Bezug von Guthaben in der jeweiligen Landeswährung 
+möglich ist. Bei Verlust oder Diebstahl wird die Karte inklusive Restwert weltweit und 
+kostenlos ersetzt. Bei Erhalt der Karte ist diese sofort zu unterschreiben.
+Vor- und Nachteile von Travel-Prepaid-Karten
+Vorteile:
+•	 Keine direkte Verbindung zu einem Bankkonto
+•	 Bei Diebstahl oder Verlust wird die Karte ersetzt
+•	 Keine Jahresgebühr
+Nachteile:
+•	 Kommission (i.d.R. 1,5% des Ladebetrags) bei Kauf und Wieder-
+aufladung
+Gebühren
+Bargeldbezug an Geldautoma-
+ten im In- und Ausland
+CHF, EUR, USD: Fr. 5.– pro Transaktion  
+(abhängig von der Kartenwährung)
+Einkäufe im In- und ­
+Ausland
+CHF, EUR, USD: Fr. 1.– pro Transaktion  
+(abhängig von der Kartenwährung)
+Kontaktloses Zahlen 
+mit Kreditkarte
+Kundenkarten
+Travel-Prepaid-Karte
+
+
+[seite: 54]
+Online-Zahlungssysteme
+Das PayPal-Konto ist ein virtuelles Konto, mit welchem Zahlungen an Dritte ausge-
+führt und von diesen empfangen werden können. PayPal fungiert dabei als Dienstleis-
+ter für den Transfer. Zur Einrichtung eines PayPal-Kontos wird die E-Mail-Adresse der 
+Nutzerin oder des Nutzers benötigt.
+Vor- und Nachteile der Zahlung per  PayPal
+Vorteile:
+•	 Für Käuferinnen und Käufer gratis
+•	 Abrechnung in der landeseigenen Währung
+•	 Sehr sicher, da nach Erstanmeldung keine heiklen Daten über-
+mittelt werden
+Nachteile:
+•	 Funktioniert nur, wenn Käufer und Verkäuferin ein ­
+PayPal-Konto 
+haben
+•	 Guthaben kommen nicht direkt auf Bankkonto
+Mit verschiedenen Apps können Sie Ihre Einkäufe bargeldlos per Smartphone bezah-
+len. Drei Beispiele:
+Mit Twint können Nutzer via Bluetooth an verschiedenen Ladenkassen zahlen. Auch 
+Transaktionen mit anderen Twint-Usern sind möglich. Die App lässt sich ans Post- 
+oder Bankkonto anbinden, kann aber auch mittels Lastschriftverfahren, E-Banking, 
+Postomat oder Guthabencode mit Geld aufgeladen werden. Die (Schweizer) Banken 
+setzen auf Twint als gemeinsame Branchenlösung. Somit ist Twint im Ausland nicht 
+einsetzbar. 
+Wer Apple Pay, Samsung Pay oder Google Pay nutzen will, braucht eine Kredit- oder 
+Prepaidkarte, die in der App hinterlegt werden muss.
+Vor- und Nachteile der Zahlung per Smartphone
+Vorteile:
+•	 Per Handy verwendbar
+•	 Apple Pay/Samsung Pay sind weltweite Zahlungsmittel
+•	 Weniger Bargeld notwendig (kleineres Diebstahlrisiko)
+Nachteile:
+•	 Schlechtere Kontrolle über eigene Ausgaben
+•	 Gefahr des Missbrauchs bei Verlust
+•	 Keine Zahlungsmöglichkeit bei leerem Akku
+Das Online-Shopping wird weiter an Bedeutung gewinnen. In Zukunft werden Bezahl-
+Apps ohne die heutigen Einschränkungen auf den Markt drängen.
+PayPal
+Twint
+Apple Pay/Samsung Pay/ 
+Google Pay
+### Das weiss ich jetzt!
+2.5	
+Nennen und beschreiben Sie drei 
+bargeldlose Zahlungsmittel.
+2.6	
+Woran müssen Sie denken, wenn 
+Sie im Ausland Bargeld beziehen?
+2.7	
+Erklären Sie den Hauptunter-
+schied zwischen einer Debit- und 
+einer Kreditkarte.
+2.8	
+Nennen Sie zwei Vor- und zwei 
+Nachteile von Kundenkarten.
+2.9	
+Nennen Sie drei Nachteile der bar-
+geldlosen Zahlungsmittel.
+
+

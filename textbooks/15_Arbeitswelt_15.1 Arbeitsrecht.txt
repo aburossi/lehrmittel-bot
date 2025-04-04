@@ -1,0 +1,753 @@
+[seite: 342]
+15.1	Arbeitsrecht
+Rechtliche Grundlagen des Arbeitsvertrags
+Ein Arbeitsverhältnis zwischen einem Arbeitgeber und einer arbeitnehmenden Person 
+wird durch gesetzliche Bestimmungen, vertragliche Vereinbarungen und betriebsin-
+terne Reglemente geregelt.
+Gesetzliche Bestimmungen
+Das Obligationenrecht (OR) enthält Vorschriften über den Einzelarbeitsvertrag (EAV). 
+Geregelt sind z.B. Begriff und Entstehung des Einzelarbeitsvertrages, die Pflichten von 
+Arbeitnehmenden und Arbeitgebenden, die Beendigung des Arbeitsverhältnisses und 
+deren Folgen. 
+Das Arbeitsgesetz (ArG) enthält zwingende öffentlich-rechtliche Mindestvorschriften 
+über die Gestaltung des Arbeitsverhältnisses, z.B. Vorschriften über Unfall- und Ge-
+sundheitsvorsorge, Arbeits- und Ruhezeiten, Abend-, Nacht- und Sonntagsarbeit, Be-
+stimmungen zum Schutz der schwangeren Frauen und der jugendlichen Arbeitneh-
+menden.
+Vertragliche Vereinbarungen
+Im Einzelarbeitsvertrag (individueller Arbeitsvertrag) werden z.B. die Funktion und 
+Stellung im Betrieb, der Lohn und die Kündigungsfristen für den einzelnen Arbeitneh-
+mer im Detail geregelt.
+Der Arbeitsvertrag enthält alle wichtigen Bestimmungen bezüglich des Arbeitsverhältnisses.
+Obligationenrecht (OR)
+Arbeitsgesetz (ArG)
+Einzelarbeitsvertrag (EAV)
+
+
+[seite: 343]
+Ein Gesamtarbeitsvertrag (GAV) wird zwischen einem Arbeitgeberverband und einer 
+Arbeitnehmerorganisation (Gewerkschaft) abgeschlossen. Gegenstand der Verein-
+barungen sind z.B. Mindestlöhne, Teuerungsausgleich, Lohnfortzahlungspflicht bei 
+Krankheit, Höchstarbeitszeit, Ferien, Freizeit und Kündigungsfristen.
+Betriebsinterne Reglemente
+Betriebsreglemente (z.B. Betriebsordnung) beinhalten Regelungen, die für alle Arbeit-
+nehmenden im Betrieb von Bedeutung sind, wie z.B. Freitage, Verhalten bei Unfall 
+und Krankheit und gleitende Arbeitszeit.
+In einem Betriebsreglement können auch Kaffeepausen geregelt sein.
+Gesamtarbeitsvertrag (GAV)
+Betriebsreglement
+### Das weiss ich jetzt!
+15.1	 Arbeitsrecht: Wo sind die Bestim-
+mungen zum Einzelarbeitsvertrag 
+niedergeschrieben?
+15.2	 In welchem Gesetz finden Sie die 
+Mindestvorschriften über die Ge-
+staltung des Arbeitsverhältnisses?
+
+
+[seite: 344]
+Einzelarbeitsvertrag (EAV)
+Vertrag
+Durch den Abschluss eines Einzelarbeitsvertrags verpflichten sich die beiden Vertrags-
+parteien zu Folgendem:
+Hauptpflichten im Einzelarbeitsvertrag
+•	 Arbeitnehmende verpflichten sich zur Leistung von Arbeit auf eine bestimmte 
+oder unbestimmte Zeit. 
+•	 Arbeitgebende verpflichten sich zur Zahlung eines Lohnes.
+Der Einzelarbeitsvertrag bedarf keiner besonderen Form. Er ist formlos gültig. Aller-
+dings besteht für den Arbeitgeber eine Informationspflicht (OR 330b).
+Das unbefristete Arbeitsverhältnis beginnt mit einer Probezeit. Diese dauert einen 
+Monat und ist im Arbeitsvertrag auf maximal drei Monate verlängerbar.
+Pflichten der Arbeitnehmenden
+Eine angestellte Person muss die vertraglich verabredete Arbeit selbst leisten. Sie 
+kann also nicht während einer Woche ihren Bruder zur Arbeit schicken, um länger Fe-
+rien zu machen, auch wenn dieser die gleiche Ausbildung hat.
+Arbeitnehmende müssen die ihnen zugewiesenen Arbeiten sorgfältig und mit vollem 
+Einsatz ausführen. Insbesondere Werkzeuge, Geräte, Material usw. müssen sie fach-
+gerecht und schonend behandeln. 
+Für Schäden, die sie dem Arbeitgeber absichtlich oder fahrlässig zufügen, sind sie 
+haftbar. Dabei müssen Faktoren wie das Berufsrisiko, der Bildungsstand und die Fach-
+kenntnisse des Arbeitsnehmers berücksichtigt werden. 
+Die Privathaftpflichtversicherung zahlt keine Schäden am Arbeitsplatz!
+Von den Mitarbeitenden wird verantwortungsbewusstes, faires und wohlerzogenes 
+Verhalten erwartet. Sie haben alles zu unterlassen, was dem Arbeitgeber einen Scha-
+den zufügen kann. Fabrikations- und Geschäftsgeheimnisse sind während der Dauer 
+des Arbeitsverhältnisses zu wahren, je nach Interesse des Arbeit­
+gebers sogar darüber 
+hinaus.
+Nebentätigkeiten, welche die Leistungsfähigkeit der Arbeitnehmenden am Arbeits-
+platz beeinträchtigen oder den Arbeitgeber konkurrenzieren, sind verbo­
+ten. Wer den-
+noch eine Nebenbeschäftigung ausführt, braucht bei einem Anstellungsverhältnis 
+von 100 Prozent die Zustimmung des Arbeitgebers.
+Form 
+ 
+OR 320
+Probezeit 
+ 
+OR 335b
+Persönliche 
+ 
+Arbeitsleistung 
+OR 321
+Sorgfaltspflicht 
+ 
+OR 321a
+Haftung 
+ 
+OR 321e
+Treuepflicht 
+ 
+OR 321a
+
+
+[seite: 345]
+Arbeitnehmerinnen und Arbeitnehmer haben die ihnen zugewiesenen Arbeiten sorgfältig und mit vol-
+lem Einsatz auszuführen.
+Was die Arbeitnehmenden in Ausübung ihrer Tätigkeit für den Arbeitgeber von Dritt-
+personen erhalten, haben sie dem Arbeitgeber abzuliefern (z.B. Geld, Geschenke, 
+nicht aber Trinkgeld).
+Überstunden liegen vor, wenn über die vertraglich vereinbarte Arbeitszeit hinaus ge-
+arbeitet werden muss.
+Arbeitnehmende können vom Arbeitgeber verpflichtet werden, Überstunden zu leis-
+ten, wenn sie aus betrieblichen Gründen notwendig und für die Arbeitnehmenden zu-
+mutbar sind (z.B. persönliche Leistungsfähigkeit und Gesundheit, familiäre Pflichten, 
+zeitliche Befristung).
+Die geleisteten Überstunden können durch Freizeit von gleicher Dauer abgegolten 
+werden. Diese Kompensation kann vom Arbeitgeber nicht einseitig angeordnet wer-
+den; er braucht das Einverständnis der Arbeitnehmenden. Wird die Überstundenar-
+beit nicht durch Freizeit ausgeglichen, schuldet der Arbeitgeber der angestellten Per-
+son einen Lohnzuschlag von mindestens 25 Prozent. 
+Es ist Sache der Arbeitnehmenden, nachzuweisen, dass sie Überstunden geleis­
+tet ha-
+ben. Der Anspruch auf Entschädigung verjährt innert fünf Jahren.
+Arbeitnehmende haben die Weisungen des Arbeitgebers zu befolgen. Sie erledigen 
+ihre Arbeit also nicht nach eigenem Gutdünken, sondern gemäss Anordnungen des 
+Arbeitgebers.
+Weisungen, welche die Leistungsfähigkeit der angestellten Person überfordern, schi-
+kanös sind, ihre Gesundheit gefährden oder sie in Gewissenskonflikte stürzen, muss 
+sie nicht befolgen.
+Allgemeine Anordnungen sind häufig in einer Betriebsordnung, in einem Pflichtenheft 
+oder einer Stellenbeschreibung enthalten.
+Rechenschafts- und  
+Herausgabepflicht  
+OR 321b
+Überstunden  
+OR 321c
+Befolgung von Anordnungen 
+und Weisungen  
+OR 321d
+### Das weiss ich jetzt!
+15.3	 Welche Vertragsform gilt für den 
+Einzelarbeitsvertrag?
+15.4	 Zählen Sie vier Pflichten der 
+Arbeitnehmenden auf.
+15.5	 Erklären Sie die Treuepflicht.
+15.6	 Aus welchen zwei Gründen kann 
+einem Arbeitnehmenden eine 
+bezahlte Nebentätigkeit verboten 
+werden?
+15.7	 Erklären Sie Überstunden.
+15.8	 Wann ist eine Arbeitnehmende 
+verpflichtet, Überstunden zu 
+leisten?
+15.9	 Mit wie viel Prozent Lohnzuschlag 
+müssen Überstunden meistens 
+entschädigt werden?
+
+
+[seite: 346]
+Pflichten der Arbeitgebenden
+Der Arbeitgeber hat den Mitarbeitenden den vereinbarten Lohn jeweils auf Ende jedes 
+Monats zu bezahlen, sofern nichts anderes üblich oder abgemacht worden ist. Nor-
+malerweise müssen die Arbeitnehmenden zuerst den ganzen Monat arbeiten, bevor 
+sie ihren Lohn erhalten. Gerät eine angestellte Person in eine Not­
+lage, so muss ihr 
+der Arbeitgeber auf Verlangen einen Vorschuss in der Höhe der geleisteten Arbeit be-
+zahlen.
+Die Mitarbeitenden haben Anspruch auf eine schriftliche Lohnabrechnung.
+Die Gratifikation ist eine Sondervergütung, welche der Arbeitgeber bei gutem Ge-
+schäftsgang, guter Leistung der angestellten Person oder als Ansporn für die Zukunft 
+freiwillig entrichtet. Manchmal ist sie im Arbeitsvertrag geregelt. Dann ist sie auch bei 
+vorzeitigem Austritt anteilmässig geschuldet.
+Der 13. Monatslohn, falls im Arbeitsvertrag aufgeführt, gilt als fester Jahreslohnbe-
+standteil und wird geschuldet. Bei einem Stellenwechsel während des Jahres hat die 
+angestellte Person  ebenfalls Anrecht auf eine anteilsmässige Zahlung desselben.
+Kann eine angestellte Person die Arbeit wegen begründeter Verhinderung nicht aus-
+führen, so muss der Arbeitgeber für eine beschränkte Zeit den Lohn weiter bezahlen, 
+sofern das Arbeitsverhältnis mehr als drei Monate gedauert hat. Als begründete Ver-
+hinderung gelten die folgenden Ereignisse:
+Gründe für Lohnfortzahlung 
+•	 Krankheit
+•	 Unfall
+•	 Obligatorischer Militärdienst
+•	 Ausübung eines öffentlichen Amtes (z.B. Kantonsrat, Gemeinderat) 
+•	 Schwangerschaft und Geburt
+Im ersten Dienstjahr beträgt die Lohnfortzahlungspflicht drei Wochen. In der Gerichts-
+praxis werden zur Festsetzung des Lohnanspruchs regional unterschiedliche Skalen 
+angewendet: Zürcher Skala (ZH, SH, TG), Basler Skala (BS, BL), Berner Skala (alle übri-
+gen Kantone). Dieser Überblick lässt die Leistungsunterschiede erkennen:
+Lohnfortzahlungspflicht
+Dienstjahr
+  1.
+  2.
+  3.
+  4.
+  5.
+  6.
+  7.
+  8.
+  9.
+10.
+Berner Skala
+3 Wochen
+1 Monat
+2 Monate
+2 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+4 Monate
+Basler Skala
+3 Wochen
+2 Monate
+2 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+3 Monate
+Zürcher Skala
+  3 Wochen
+  8 Wochen
+  9 Wochen
+10 Wochen
+11 Wochen
+12 Wochen
+13 Wochen
+14 Wochen
+15 Wochen
+16 Wochen
+Lohnzahlungspflicht 
+OR 322, 323
+Gratifikation 
+ 
+OR 322d
+13. Monatslohn
+Lohnzahlung bei Verhinderung 
+des Arbeitnehmers 
+OR 324aff.
+Dauer der Lohnfort­
+zahlungspflicht
+
+
+[seite: 347]
+Diese Regelung gilt, wenn keine Versicherung – weder die kollektive Krankentaggeld-
+versicherung im Betrieb noch die Unfallversicherung oder die Erwerbs­
+ersatzordnung 
+– den Lohnausfall deckt.
+Bei der Berechnung der Dauer des Lohnanspruches ist die ganze Abwesenheit wäh-
+rend eines Anstellungsjahres massgebend (z.B. Krankheit und Unfall). 
+Sofern nichts anderes vereinbart oder üblich ist, muss der Arbeitgeber den Arbeitneh-
+menden die notwendigen Arbeitsgeräte und Materialien (z.B. Schutzkleidung) bereit-
+stellen.
+Stellen Arbeitnehmende mit Einverständnis der Arbeitgebenden Geräte oder Materia-
+lien selbst zur Verfügung, haben sie dafür eine angemessene Entschädigung zugute. 
+Der Arbeitgeber hat der angestellten Person die Spesen zu ersetzen, die ihr durch die 
+Ausführung der Arbeit entstehen, insbesondere dann, wenn es sich um auswärtige 
+Arbeiten handelt. 
+Der Arbeitgeber hat die Persönlichkeit der Arbeitnehmenden zu schützen. Insbeson-
+dere muss er sexuelle Belästigung und Mobbing verhindern.
+Der Arbeitgeber hat auf die Gesundheit der Arbeitnehmenden Rücksicht zu nehmen 
+und alle zumutbaren und notwendigen Vorkehrungen zu treffen, um Unfälle und an-
+dere Gesundheitsgefährdungen zu verhindern.
+Der Datenschutz muss gewährleistet werden.
+Der Mindestferienanspruch beträgt ab dem vollendeten 20. Altersjahr vier bezahlte 
+Wochen (20 Arbeitstage) pro Kalenderjahr.
+Der Arbeitgeber bestimmt den Zeitpunkt der Ferien und nimmt dabei auf die Wün-
+sche der Arbeitnehmenden Rücksicht (so kann z.B. ein Familienvater wünschen, seine 
+Ferien während der Schulferien beziehen zu können). Mindestens zwei Ferienwochen 
+müssen den Arbeitnehmenden in einem zusammenhängenden Abschnitt gewährt 
+werden.
+Für ein unvollständiges Dienstjahr werden die Ferien anteilsmässig gewährt.
+Ferien dürfen nicht durch Geldleistungen abgegolten werden, da sie der Erholung die-
+nen (Ausnahme: Beendigung des Arbeitsverhältnisses).
+Erkrankt oder verunfallt eine angestellte Person während der Ferien ernsthaft ohne ei-
+genes Verschulden, sodass der Erholungszweck nicht mehr gewährleistet ist, bewirkt 
+dies einen Unterbruch der Ferien (Ferienunfähigkeit). Die Person kann die entspre-
+chenden Ferientage nachbeziehen, muss jedoch beweisen, dass sie krank war oder 
+einen Unfall hatte. Sie sollte deshalb ihren Arbeitgeber sofort informieren und sich ein 
+Arztzeugnis beschaffen.
+Wer während den Ferien ernsthaft verunfallt, kann die Ferientage nachbeziehen.
+Arbeitsgeräte, Material und 
+Auslagen  
+OR 327, 327a
+Schutz der Persönlichkeit des 
+Arbeitnehmers  
+OR 328, 328b
+Ferien  
+OR 329a–d
+Krankheit und Unfall 
+während der Ferien
+
+
+[seite: 348]
+Viele Arbeitsverträge verlangen von den Angestellten, dass sie ab dem dritten Tag, 
+den sie im Betrieb fehlen, ein Arztzeugnis vorlegen müssen. Der Arbeit­
+geber darf im 
+Arbeitsvertrag aber festlegen, dass ein Zeugnis bereits ab dem ers­
+ten Tag nötig ist.
+Kann eine angestellte Person während einer länger dauernden Frist nicht arbeiten, 
+kann ihr der Arbeitgeber die Ferienansprüche kürzen. 
+Nach der Niederkunft hat eine Arbeitnehmerin Anspruch auf einen Mutterschaftsur-
+laub von mindestens 14 Wochen. Für den Vater gilt seit dem 1. Januar 2021 ein An-
+spruch auf zwei Wochen Vaterschaftsurlaub in den ersten sechs Monaten nach Geburt 
+eines Kindes.
+Ein Mutterschaftsurlaub von mindestens 14 Wochen ist gesetzlich vorgeschrieben.
+Ferienansprüche verjähren nach fünf Jahren.
+Arbeitnehmende haben Anspruch auf freie Stunden und Tage. Es gelten in der Praxis 
+recht einheitliche Richtlinien:
+Richtlinien für freie Tage (häufig im GAV geregelt)
+Eigene Heirat
+Heirat eines engen Verwandten
+Geburt eines Kindes (Mutter)
+Geburt eines Kindes (Vater)
+Tod eines Familienmitgliedes
+Umzug
+Behördengang und Arztbesuch
+2 bis 3 Tage
+1 Tag
+14 Wochen
+14 Tage
+1 bis 3 Tage
+1 Tag
+nach Bedarf
+Pro Jahr können die Kantone acht Feiertage den Sonntagen gleichstellen. Der 1. Au-
+gust (Bundesfeiertag) gilt als Feiertag.
+Wenn im GAV/EAV geregelt, können Feiertage, welche in die Ferien fallen, nachbezo-
+gen werden.
+Arztzeugnis
+Kürzung der Ferien 
+OR 329b
+Mutterschaft  und Vaterschaft 
+OR 329f.
+Verjährung 
+OR 128, Absatz 3
+Übliche freie Stunden 
+ 
+und Tage 
+ 
+OR 329
+Feiertage
+
+
+[seite: 349]
+Jugendliche Arbeitnehmende bis zum 30. Altersjahr haben für ehrenamtliche leitende 
+oder betreuende Tätigkeiten im Rahmen ausserschulischer Jugend­
+arbeit (z.B. J+S-
+Kurse) Anspruch auf maximal fünf Arbeitstage unbezahlten Urlaub. Diese Abwesen-
+heiten sind dem Arbeitgeber mindestens zwei Monaten im Voraus mitzuteilen.
+Engagement, beispielsweise bei den Pfadfindern, kann einem Jugendlichen bis zu fünf Tagen unbezahl-
+ten Urlaub bringen.
+Arbeitnehmende können jederzeit vom Arbeitgeber ein Zeugnis verlangen, das über 
+die Art und Dauer des Arbeitsverhältnisses, die Stellung und Funktion im Betrieb so-
+wie über ihre Leistungen und ihr Verhalten Auskunft gibt. Das Arbeitszeugnis muss in-
+haltlich klar, eindeutig und wahrheitsgetreu verfasst werden. Es darf keine falschen 
+Angaben enthalten und sollte auf verschlüsselte Formulierungen verzichten (keine 
+Codierungen).
+Bei Unstimmigkeiten zwischen den Vertragsparteien hat die angestellte Person das 
+Recht auf eine Arbeitsbestätigung. Diese beinhaltet nur die Art und Dauer der Beschäf-
+tigung, äussert sich aber nicht über die Leistungen und das Verhalten des Arbeitneh-
+menden.
+Im Einzelarbeitsvertrag können noch weitere Absprachen vereinbart werden. Zum 
+Beispiel der Versicherungsschutz und die Bezahlung von Prämien kann über Lohnab-
+züge festgehalten werden.
+Ausserschulische ­
+Jugendarbeit  
+OR 329e
+Arbeitszeugnis  
+OR 330a
+Arbeitsbestätigung 
+OR 330a
+Weitere Inhalte EAV
+### Das weiss ich jetzt!
+15.10	Zählen Sie vier Pflichten der 
+Arbeitgebenden auf.
+15.11	Beat ist seit einem halben Jahr 
+in einem Betrieb angestellt. Nun 
+muss er Militärdienst leisten. Wie 
+lange ist der Arbeitgeber ver-
+pflichtet, seinen Lohn weiterzu-
+zahlen?
+15.12	Wann hat eine Arbeitnehmerin 
+das Recht auf Spesen?
+15.13	Auf wie viele Ferienwochen hat 
+eine 22-Jährige Anrecht?
+15.14	Wer bestimmt den Zeitpunkt der 
+Ferien?
+15.15	Weshalb dürfen Ferien nicht 
+durch Geldleistungen abgegolten 
+werden?
+15.16	Für welche Tätigkeiten stehen 
+­
+Ihnen bis zum 30. Altersjahr fünf 
+Tage unbezahlten Jugendurlaubs 
+zu?
+15.17	Nennen Sie die Unterschiede zwi-
+schen einem Arbeitszeugnis und 
+einer Arbeitsbestätigung.
+
+
+[seite: 350]
+Arbeitszeit
+Die Zeit am Arbeitsplatz gilt als Arbeitszeit. Der Weg zur Arbeit gilt nicht als Arbeitszeit. 
+Muss sich eine angestellte Person auf Anordnung des Arbeitgebers oder von Geset-
+zes wegen beruflich weiter- oder fortbilden, dann gilt die dafür aufgewendete Ausbil-
+dungszeit als Arbeitszeit.
+Höchstarbeitszeiten
+•	 45 Stunden für Arbeitnehmende in industriellen Betrieben sowie für Büroperso-
+nal, technische und andere Angestellte, mit Einschluss des Verkaufs­
+personals in 
+Grossbetrieben des Detailhandels.
+•	 50 Stunden für alle übrigen Arbeitnehmenden.
+Der Einzelarbeitsvertrag und ein Gesamtarbeitsvertrag können die Arbeitszeit senken. 
+Wird mehr als die vertragliche Arbeitszeit gearbeitet, so sind das Überstunden.
+Wird die wöchentliche Höchstarbeitszeit ausnahmsweise wegen dringender Arbeiten 
+überschritten, liegt Überzeit vor.
+Bedingungen für Überzeit
+•	 Dringlichkeit der Arbeit oder ausserordentlicher Arbeitsandrang
+•	 Inventaraufnahmen, Rechnungsabschlüsse und Liquidationen (­
+Auflösungen)
+•	 Vermeidung oder Beseitigung von Betriebsstörungen
+Überstunden und Überzeit werden mit Freizeit von gleicher Dauer oder einem Lohn-
+zuschlag von 25 Prozent abgegolten.
+Die Arbeitswoche darf für die einzelne angestellte Person höchstens 5½ Arbeitstage 
+umfassen.
+Die Nachtarbeit und die Sonntagsarbeit sind bewilligungspflichtig und erfordern das 
+Einverständnis der Arbeitnehmenden. Die Nachtarbeit ist mit einem Lohnzuschlag 
+von 25 Prozent, die Sonntagsarbeit mit einem von 50 Prozent abzugelten. In verschie-
+denen Berufen gibt es Ausnahmeregelungen (z.B. Bäcker-Konditoren, Nachtwächter, 
+Securitas, Gastgewerbe, Gesundheits- und Sozialberufe usw.)
+Die Arbeit ist je nach Dauer der Arbeitszeit mit Pausen zu unterbrechen. Pausen gelten 
+als Arbeitszeit, wenn die Arbeitnehmenden den Arbeitsplatz nicht verlassen dürfen.
+Bis zum 15. Lebensjahr sind Anstellungen grundsätzlich verboten. Bis zum 19. Alters-
+jahr (bei Lernenden bis zum 20. Altersjahr) trifft den Arbeitgeber eine verstärkte Für-
+sorgepflicht. Die tägliche Höchstarbeitszeit beträgt für Jugendliche neun Stunden in-
+nerhalb eines Zeitraums von 12 Stunden.
+Begriff der Arbeitszeit 
+ArGV 1 13
+Wöchentliche 
+­
+Höchstarbeitszeit 
+ 
+ArG 9
+Überstunden 
+ 
+OR 321c
+Überzeit 
+ 
+ArG 12, 13
+Arbeitszeitverteilung 
+ArGV 1 16
+Nacht- und 
+ 
+Sonntags­
+arbeit 
+ 
+ArG 16–18ff.
+Pausen 
+ 
+ArG 15, ArGV Art. 18
+Sondervorschriften 
+ 
+Jugendliche 
+ 
+ArG 29–32
+### Das weiss ich jetzt!
+15.18	Was ist Überzeit?
+15.19	Aus welchen Gründen darf Über-
+zeit angeordnet werden?	
+15.20	Wie hoch ist der prozentuale 
+Lohnzuschlag für Nacht- bzw. 
+Sonntagsarbeit?
+
+
+[seite: 351]
+Beendigung 
+Ein befristeter Arbeitsvertrag endigt ohne Kündigung mit Ablauf der Vertragszeit. Ein 
+unbefristeter Arbeitsvertrag läuft hingegen so lange, bis er von einer Vertragspartei 
+beendigt wird.
+Soweit schriftlich nichts anderes vereinbart, gelten folgende Kündigungsfristen:
+Kündigungsfristen
+•	 Während der Probezeit kann das Arbeitsverhältnis jederzeit mit sieben Tagen 
+Kündigungsfrist gekündigt werden.
+•	 Nach der Probezeit kann das Arbeitsverhältnis im 1. Dienstjahr mit einer Frist 
+von einem Monat auf jedes Monatsende gekündigt werden.
+•	 Im 2. bis 9. Dienstjahr kann das Arbeitsverhältnis mit einer Frist von zwei 
+­
+Monaten auf jedes Monatsende gekündigt werden.
+•	 Ab dem 10. Dienstjahr kann das Arbeitsverhältnis mit einer Frist von drei 
+­
+Monaten auf jedes Monatsende gekündigt werden.
+Diese Kündigungsfristen dürfen abgeändert werden. Grundsätzlich gilt eine Mindest-
+kündigungsfrist von einem Monat. 
+Die Kündigung kann mündlich mitgeteilt werden. Sie ist formlos gültig. Eine schrift-
+liche, eingeschriebene Kündigung erleichtert jedoch den Beweis. Die Kündigung muss 
+schriftlich begründet werden, falls dies von einer Vertragspartei gewünscht wird.
+Das Kündigungsschreiben muss spätestens am letzten Tag vor Beginn der Kündi-
+gungsfrist im Besitze des Empfängers sein. Der Poststempel ist nicht massgebend. Es 
+empfiehlt sich, die Kündigung rechtzeitig aufzugeben und sich allenfalls zu erkundi-
+gen, ob sie eingetroffen ist oder nicht.
+Verspätete Kündigungen gelten auf den nächstmöglichen Kündigungstermin. Wird 
+irrtümlicherweise mit einer zu kurzen Kündigungsfrist gekündigt, ist die Kündigung 
+keinesfalls nichtig. Reklamiert der Empfänger nicht, gilt sie als angenommen. Rekla-
+miert der Empfänger, wird die Kündigung automatisch auf den richtigen Zeitpunkt hin 
+vollzogen.
+Kündigungen können missbräuchlich sein. In solchen Fällen kann ein Arbeitnehmer 
+zwar nicht verlangen, dass er wieder eingestellt wird, aber er kann vom Arbeitgeber 
+eine Entschädigung verlangen, welche eine Richterin oder ein Richter festlegt und 
+maximal sechs Monatslöhne beträgt. Dazu muss der Arbeitnehmer bis zum Ablauf der 
+Kündigungsfrist beim Arbeitgeber schriftlich Einsprache erheben.
+Beispiele missbräuchlicher Kündigungsgründe  
+•	 Die Chefin erfährt, dass ein Angestellter homosexuell ist. 
+•	 Eine Arbeitnehmerin trägt aus religiöser Überzeugung ein Kopftuch. 
+•	 Ein Arbeitnehmer reklamiert, weil die gesetzlichen Sicherheitsvorschriften nicht 
+eingehalten würden.
+•	 Eine Arbeitnehmerin ist Mitglied einer Gewerkschaft.
+Befristete und unbefristete 
+Arbeits­
+verhältnisse 
+OR 334, 335
+Kündigungsfristen 
+OR 335a–c
+Form der Kündigung 
+OR 335
+Verspätete  
+Kündigungen
+Missbräuchliche  
+Kündigung 
+OR 336ff.
+
+
+[seite: 352]
+Kündigung zur Unzeit/Sperrfristen
+Kündigungen können ungültig sein, wenn sie in eine Zeitspanne fallen, in welcher der 
+Arbeitgeber oder die Arbeitgeberin nicht kündigen darf. Diese sogenannten Sperrfris-
+ten gelten aber erst nach der Probezeit.
+Folgende Sperrfristen müssen Arbeitgebende beachten:
+Sperrfristen 
+•	 Militär-/Zivilschutzdienst/Zivildienst 
+während der Dienstleistung inklusive vier Wochen vorher und nachher 
+•	 Krankheit/Unfall 
+im ersten Dienstjahr während 30 Tagen
+ab dem zweiten bis fünften Dienstjahr während 90 Tagen 
+ab dem sechsten Dienstjahr während 180 Tagen 
+•	 Schwangerschaft 
+während der Schwangerschaft und bis 16 Wochen nach der Geburt 
+•	 Hilfsaktion im Ausland 
+während der Hilfsaktion (Voraussetzung Zustimmung Arbeitgeber)
+Eine Kündigung, die während einer solchen Sperrfrist durch den Arbeitgeber ausge-
+sprochen wird, ist nichtig. Sie hat keine Wirkung und muss nach Ablauf der Sperrfrist 
+wiederholt werden.
+Ist die Kündigung vor Beginn einer Sperrfrist erfolgt, ist sie gültig. Aber die Kündi-
+gungsfrist wird während der Dauer der Sperrfrist unterbrochen und läuft erst nachher 
+wieder weiter.
+Eine Sperrfrist gilt beim Militär- und Zivilschutz. Während der Schwangerschaft und bis 16 Wochen nach 
+der Geburt darf einer Arbeitnehmerin nicht gekündigt werden.
+Fristlose Auflösung
+Aus wichtigen Gründen kann das Arbeitsverhältnis ohne Einhaltung der Kündigungs-
+frist aufgelöst werden. Bei einem wichtigen Grund kann man dem Kündigenden die 
+Fortsetzung des Arbeitsverhältnisses nicht mehr zumuten. Eine solche Kündigung ist 
+nur in krassen Fällen möglich.
+Die fristlose Auflösung beendet den Arbeitsvertrag und die Lohnzahlungspflicht 
+sofort.
+OR 336c–d
+OR 337–337c
+
+
+[seite: 353]
+Wichtige Gründe der Arbeitgebenden für eine fristlose Auflösung
+•	 Ein Arbeitnehmer begeht Straftaten gegenüber dem Arbeitgeber oder seinen 
+Arbeitskollegen (z.B. Diebstahl, Tätlichkeiten, falsche Spesen­
+angaben).
+•	 Eine Arbeitnehmerin konkurrenziert ihren Arbeitgeber (z.B. Schwarz­
+arbeit, Ge-
+schäfte auf eigene Rechnung).
+•	 Ein Arbeitnehmer verweigert mehrmals und beharrlich seine zu leistende 
+Arbeit, erscheint wiederholt unentschuldigt zu spät oder gar nicht zur Arbeit, 
+verlässt unbegründet den Arbeitsplatz, bezieht eigenmächtig Ferien oder ver-
+weigert die Leistung von Überstunden.
+Wichtige Gründe der Arbeitnehmenden für eine fristlose Auflösung
+•	 Ein Arbeitgeber wird gegenüber einer Arbeitnehmerin tätlich, belästigt sie un-
+sittlich, beleidigt sie oder überwacht ihr Privatleben. 
+•	 Eine Arbeitgeberin fordert einen Arbeitnehmer zu strafbaren Handlungen auf 
+(z.B. Steuerhinterziehung).
+•	 Ein Arbeitgeber ist zahlungsunfähig, d.h., er kann z.B. den Lohn der angestell-
+ten Personen nicht zahlen (OR 337a).
+Wer seinen Arbeitgeber bestiehlt, kann fristlos entlassen werden.
+Wird eine angestellte Person ungerechtfertigterweise fristlos entlassen, steht ihr der 
+Lohn bis zum Ablauf der ordentlichen Kündigungsfrist zu. Zusätzlich kann die Person 
+gerichtlich eine Entschädigung geltend machen. Diese Entschädigung kann maximal 
+bis zu sechs Monatslöhnen betragen.
+
+
+[seite: 354]
+Treten Arbeitnehmende ohne wichtigen Grund die Stelle nicht an oder verlassen sie 
+fristlos, werden sie schadenersatzpflichtig. In einem solchen Fall schulden die Arbeit-
+nehmenden dem Arbeitgeber einen Viertel eines Monatslohnes. Ausserdem hat der 
+Arbeitgeber Anspruch auf Ersatz weiteren Schadens (z.B. Einstellung einer Temporär-
+arbeitskraft). 
+Fristlose Kündigungen können nicht willkürlich erfolgen, sondern unterliegen bestimmten gesetzlichen 
+Regelungen. 
+Nichtantreten oder 
+ 
+fristloses Verlassen der Stelle 
+ 
+OR 337d
+### Das weiss ich jetzt!
+15.21	Welche vier ordentlichen Kündi-
+gungsfristen gelten?
+15.22	Die Kündigungsfristen im Einzel-
+arbeitsvertrag dürfen abgeändert 
+werden; wie lange ist die Mindest-
+kündigungsfrist?
+15.23	Welche Formvorschrift gilt für 
+­
+Kündigungen?
+15.24	Wann muss das Kündigungs-
+schreiben spätestens im Besitz 
+des Empfängers sein?
+15.25	Was passiert mit einer Kündigung, 
+die eine zu kurze Kündigungsfrist 
+aufweist?
+15.26	Zählen Sie zwei Beispiele für 
+missbräuchliche Kündigungen 
+auf. 
+15.27	Welche Folgen hat eine miss-
+bräuchliche Kündigung für eine 
+Arbeitnehmerin?
+15.28	Was ist eine Sperrfrist?
+15.29	Welche Sperrfristen gelten bei
+a)	 Militär-/Zivildienst sowie Zivil-
+schutz?
+b)	Krankheit/Unfall?
+c)	 Schwangerschaft?
+d)	Hilfsaktion im Ausland?
+15.30	Welches sind die Folgen einer 
+Kündigung, bei der die Kündi-
+gungsfrist in die Sperrfrist fällt?
+15.31	Nennen Sie zwei wichtige Gründe 
+des Arbeit­
+gebers für eine fristlose 
+Auflösung des Arbeitsverhält-
+nisses.
+15.32	Welche Folgen hat das Nichtan-
+treten einer Stelle für den Arbeit­
+nehmer?
+
+
+[seite: 355]
+Probleme und Lösungen 
+Tagtäglich wird Arbeitnehmenden zu Unrecht gekündigt, werden Löhne nicht bezahlt, 
+Freitage nicht gewährt oder Arbeitszeugnisse nicht ausgestellt. Bei diesen arbeits-
+rechtlichen Streitigkeiten ist der Streitwert meistens gering. Deshalb ist eine gütliche 
+Einigung zwischen den Vertragsparteien in solchen Situationen fast immer besser als 
+ein teures Gerichtsverfahren.
+Während des Arbeitsverhältnisses sind arbeitsrechtliche Streitigkeiten problematisch. 
+Einerseits befinden sich die Arbeitnehmenden in einem Abhängigkeitsverhältnis ge-
+genüber dem Arbeitgeber und sind somit am kürzeren Hebel, andererseits dürfen die 
+Arbeitnehmenden mit ihren Forderungen nicht zu lange warten, da sie sonst verjäh-
+ren.
+Oft genügt es, dass sich die Parteien genau über ihre Rechte und Pflichten ins Bild set-
+zen, um Streitigkeiten beizulegen. Am besten erkundigen sich Arbeitnehmende bei 
+Rechtsberatungen von Gewerkschaften, beim örtlichen Arbeitsgericht, bei paritäti-
+schen Kommissionen (GAV) oder bei Rechtsdiensten von Zeitungen und Zeitschriften 
+(z.B. beobachter.ch). 
+Gemeinden und Kantone bieten unentgeltliche Rechtsauskünfte an.
+Gelingt es den Parteien nicht, sich zu einigen, bleibt nur der Gang an die Schlichtungs-
+behörde. Diese versucht dann, die Parteien zu versöhnen und eine gesetzliche Eini-
+gung zu finden. Können sich die Parteien aber nicht einigen, kann der Kläger Klage 
+beim zuständigen Gericht einreichen. Für Streitigkeiten bis zu einem Streitwert von 
+30000 Franken fallen keine Gerichtskosten an. Für Klagen bis zu diesem Betrag riskiert 
+ein Arbeitnehmer nur seine eigenen Anwaltskosten (sofern eine Anwältin engagiert 
+wird) und eine allfällige Entschädigung an die Gegenpartei. Eine Rechtsschutzversi-
+cherung deckt evtl. auch Bereiche aus dem Arbeitsrecht ab.
+Können sich die Parteien nicht einigen, so bleibt nur der Gang ans Gericht. 
+Gütliche Einigung
+Rechtsauskünfte
+Unentgeltliche  
+Rechtsauskünfte
+Schlichtungsbehörde/ 
+­
+Zuständiges Gericht
+### Das weiss ich jetzt!
+15.33	Wer kann bei Streitigkeiten am 
+Arbeitsplatz helfen?
+15.34	Was gilt bei Arbeitsstreitigkeiten 
+in Bezug auf die Gerichtskosten?
+
+
+[seite: 356]
+Gesamtarbeitsvertrag (GAV)
+Der Gesamtarbeitsvertrag (GAV) wird zwischen Arbeitgeberverbänden und Arbeitneh-
+merorganisationen (Gewerkschaften) abgeschlossen.
+Die Bestimmungen eines Gesamtarbeitsvertrages enthalten häufig günstigere Rege-
+lungen für die Arbeitnehmenden als das OR.
+Häufige Inhaltspunkte eines GAV
+•	 Mindestlohn
+•	 Teuerungsausgleich
+•	 Gratifikation
+•	 Überzeitentschädigung
+•	 Personalvorsorge
+•	 Bezahlung des Lohnes bei Militär-
+dienst, Krankheit und Unfall
+•	 Arbeits- und Ruhezeit
+•	 Ferien und Feiertage
+•	 Kündigungsfristen
+Ein Einzelarbeitsvertrag darf abweichende Bestimmungen zu einem Gesamtarbeits-
+vertrag aufweisen, aber nur zum Vorteil der Arbeitnehmenden. Bestimmungen des 
+Einzelarbeitsvertrages, die dem Gesamtarbeitsvertrag widersprechen, sind nichtig 
+(ungültig).
+Grundsätzlich gelten die Bestimmungen eines Gesamtarbeitsvertrages nur für die 
+Mitglieder des jeweiligen Arbeitgeberverbandes und der jeweiligen Arbeitnehmer-
+organisation, welche den Vertrag ausgehandelt haben. Der Bundesrat oder der Regie-
+rungsrat eines Kantones kann jedoch unter bestimmten Umständen einen Gesamt-
+arbeitsvertrag für die ganze Schweiz beziehungsweise für den betreffenden Kanton 
+allgemeinverbindlich erklären. Dann gilt dieser Vertrag obligatorisch für alle Arbeit-
+gebenden und Arbeitnehmenden dieser bestimmten Berufsgruppe.
+Die Vertragsparteien (Sozialpartner) müssen alle Bestimmungen einhalten und sind 
+verpflichtet, den Arbeitsfrieden in Bezug auf alle Regelungen im GAV zu wahren (Frie-
+denspflicht). Auf Kampfmassnahmen wie Streiks oder Aussperrungen wird während 
+der Gültigkeit des GAV verzichtet.
+Inhalt 
+OR 356
+Geltungsbereich, 
+Allgemeinverbindlich­
+erklärung 
+(AVE)
+Bedeutung des GAV 
+OR 357, 357a
+### Das weiss ich jetzt!
+15.35	Wie heissen die Vertragspartner 
+bei einem Gesamtarbeitsvertrag?
+15.36	Nennen Sie Unterschiede zwi-
+schen einem Einzelarbeitsvertrag 
+(EAV) und einem Gesamtarbeits-
+vertrag (GAV).
+15.37	Wann darf ein Einzelarbeitsver-
+trag abweichende Bestimmungen 
+zu einem Gesamtarbeitsvertrag 
+aufweisen?
+15.38	Wann gilt ein Gesamtarbeitsver-
+trag obligatorisch für alle Arbeit-
+nehmenden und Arbeitgebenden 
+einer bestimmten Berufsgruppe?
+15.39	Welche Bedeutung hat der Ge-
+samtarbeitsvertrag für die Sozial-
+partner?
+
+
