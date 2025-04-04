@@ -7,7 +7,8 @@ from pathlib import Path
 
 # --- Konfiguration ---
 st.set_page_config(
-    page_title="Subkapitel Chatbot (AWS S3)",
+    page_title="Lernen mit LearnLM",
+    page_icon="📚",
     layout="wide"
 )
 
@@ -185,8 +186,8 @@ def reset_chat_state():
 
 # --- Streamlit App UI und Logik ---
 
-st.title("📚 Subkapitel-Prüfungsvorbereitungs-Chatbot (AWS S3)")
-st.caption("Betrieben mit Google LearnLM 1.5 Pro Experimental | Inhalt von AWS S3")
+st.title("📚 Lernen mit LearnLM")
+st.caption("Betrieben mit Google LearnLM 1.5 Pro Experimental")
 
 # --- Zustandsinitialisierung ---
 if "messages" not in st.session_state:
