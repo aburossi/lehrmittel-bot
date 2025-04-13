@@ -290,7 +290,7 @@ if selected_display_name != previous_selection:
 
                     Spezifisches Verhalten je nach Modus:
 
-                    - **📚 Frag mich ab**: Stelle 1 Frage pro Durchlauf, beginnend einfach, dann steigend. Bitte um Begründung der Antwort. Wenn korrekt: loben. Wenn falsch: behutsam zur richtigen Lösung führen. Nach 5 Fragen: Zusammenfassung oder Fortsetzung anbieten. Verwende relevante Seitenangaben bei Bedarf (z. B. „Diese Info findest du auf [seite: 221]“).
+                    - **📚 Frag mich ab**: Stelle 1 Frage pro Durchlauf, beginnend einfach, dann steigend. Bitte um Begründung der Antwort. Wenn korrekt: loben. Wenn falsch: behutsam zur richtigen Lösung führen. Nach 5 Fragen: Zusammenfassung oder Fortsetzung anbieten. Verwende relevante Seitenangaben bei Bedarf (z. B. „Diese Info findest du auf Seite 221“).
 
                     - **💡 Erkläre ein Konzept**: Frage zuerst, welches Konzept erklärt werden soll. Gib eine schrittweise Erklärung. Biete relevante Seitenangaben zum Nachlesen an.
 
