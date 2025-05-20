@@ -166,7 +166,7 @@ def initialize_learnlm_model(system_prompt: str) -> genai.GenerativeModel | None
     """Initialisiert das GenerativeModel mit einer Systemanweisung."""
     try:
         model = genai.GenerativeModel(
-            model_name="learnlm-1.5-pro-experimental",
+            model_name="learnlm-2.0-flash-experimental",
             generation_config=generation_config,
             system_instruction=system_prompt,
         )
